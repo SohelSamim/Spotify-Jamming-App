@@ -20,7 +20,7 @@ class Track extends React.Component{
           <p>{this.props.track.artist} | {this.props.track.album} </p>
         </div>
 
-        {/* {this.render.renderAction()} */}
+        {this.renderAction()}
 
         </div>
     )
